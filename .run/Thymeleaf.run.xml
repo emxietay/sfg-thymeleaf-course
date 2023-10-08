@@ -1,0 +1,14 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Thymeleaf" type="docker-deploy" factoryName="docker-image" server-name="Docker">
+    <deployment type="docker-image">
+      <settings>
+        <option name="imageTag" value="docker/welcome-to-docker:latest" />
+        <option name="containerName" value="thymeleaf" />
+      </settings>
+    </deployment>
+    <method v="2">
+      <option name="LaunchBrowser.Before.Run" />
+      <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="" />
+    </method>
+  </configuration>
+</component>
